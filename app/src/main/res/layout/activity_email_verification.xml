@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.EmailVerification"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/verifytV"
+        android:layout_width="179dp"
+        android:layout_height="71dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="127dp"
+        android:text="Verify"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+
+    <EditText
+        android:id="@+id/emailEt"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_above="@+id/verifyBtn"
+        android:layout_below="@+id/verifytV"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="57dp"
+        android:hint="example@gmail.com"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/verifyBtn"
+        android:layout_width="103dp"
+        android:layout_height="103dp"
+        android:layout_above="@+id/backbtn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="144dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="71dp"
+        android:text="Verify" />
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="154dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="112dp"
+        android:background="@android:color/white"
+        android:text="BACK" />
+
+
+</RelativeLayout>

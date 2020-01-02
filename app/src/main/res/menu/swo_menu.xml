@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:orientation="vertical" android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    <item android:id="@+id/studentList"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Student List"
+        />
+    <item android:id="@+id/Outofhostel"
+        android:title="Out of Hostel" />
+    <item android:id="@+id/help"
+        android:title="Behaviour" />
+    <item android:id="@+id/leave_application"
+        android:title="Applications" />
+    <item android:id="@+id/logout"
+        android:title="logout" />
+</menu>
+
+    <!--</LinearLayout>-->

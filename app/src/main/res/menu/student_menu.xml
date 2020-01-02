@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:orientation="vertical" android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <item android:id="@+id/Profile"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Profile"
+            />
+        <item android:id="@+id/Application"
+            android:title="Leave Application" />
+        <item android:id="@+id/help"
+            android:title="help" />
+        <item android:id="@+id/logout"
+            android:title="logout" />
+    </menu>
+
+<!--</LinearLayout>-->
